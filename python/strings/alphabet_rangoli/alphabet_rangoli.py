@@ -41,7 +41,7 @@ def print_rangoli(size):
         else:
             assembled_rangoli.append(item)
     
-    #
+    #join using line ending and print.
     print("\n".join(assembled_rangoli))
 
 if __name__ == '__main__':
